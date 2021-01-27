@@ -1,0 +1,24 @@
+
+<div style="position: absolute;top:0;left: 0;background-color: blue;">
+  <router-outlet name="header1"></router-outlet>
+</div>
+
+<div style="position: absolute;top:0;right: 0;background-color: blue;">
+  <router-outlet name="header2"></router-outlet>
+</div>
+
+
+<div style="position: absolute;bottom:0;left: 0;background-color: blue;">
+  <router-outlet name="header3"></router-outlet>
+</div>
+
+
+<div style="position: absolute;bottom:0;right: 0;background-color: blue;">
+  <router-outlet name="header5"></router-outlet>
+</div>
+
+<div style="position: absolute;
+top: 50%;
+right: 50%;">
+<input type ="text" [(ngModel)]="this.CommonService.comText" placeholder="Enter Text Here">
+</div>
